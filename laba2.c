@@ -1,9 +1,8 @@
-#include<stdio.h> //input line .. qwer asdf .. rewqfdsa fdsa rewq
+#include<stdio.h> 
 
 int main(){
     char a[100];
     char s[100];
-    char w[100];
     char c, v;
     int z = 0;
     int i = 0;
