@@ -1,8 +1,9 @@
 #include<stdio.h> 
-
+// доп сколько раз  каждое слово вошло в строку
 int main(){
     char a[100];
     char s[100];
+    char w[100];
     char c, v;
     int z = 0;
     int i = 0;
@@ -41,8 +42,12 @@ int main(){
         }
     }
     z = z - 2;
+    j = 0;
     for(z; z >= 0; z--)
     {
-        putchar(s[z]);  
+        w[j] = s[z];
+        j = j + 1;  
     }
+    printf("%s\n", w);
+    
 }
